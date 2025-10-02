@@ -56,7 +56,7 @@
     :default "gnucash_user"]
    ["-v" "--version" "Show version."]])
 
-(def ^:const version "0.0.1")
+(def ^:const version "0.0.2")
 (def ^:const script-name "gnucash_backup.bb")
 (def ^:const lock-file (str (fs/path "/tmp/" (str script-name ".lock"))))
 
